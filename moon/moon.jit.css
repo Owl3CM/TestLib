@@ -1,0 +1,5 @@
+
+.hover\:\[bg\:\#f0f3\,p-xl\,pt\:100px\]:hover{background-color:#f0f3;padding:var(--spacing-xl);padding-top:100px;}
+.hover\:\[bg-cyan\,text-owl\,p-xl\]:hover{background-color:var(--cyan);color:var(--owl);padding:var(--spacing-xl);}
+.bg\:\#f0f3{background-color:#f0f3}
+.pt\:100px{padding-top:100px}

@@ -4,11 +4,11 @@
 // import PopupExample from "./Forth";
 // import PopupExample from "./Fifth";
 import PopupExample from "./Sexth";
-import PrintExample from "./PrintExample";
+// import PrintExample from "./PrintExample";
 
 const TESTVIEW = () => {
   return <PopupExample />;
-  return <PrintExample />;
+  // return <PrintExample />;
 };
 
 export default TESTVIEW;

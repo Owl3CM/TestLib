@@ -6,8 +6,8 @@ const placementsWithTarget = ["auto", "left", "top", "top-left", "top-right", "b
 const PopupExample = () => {
   const [placement, setPlacement] = React.useState<any>("auto");
   return (
-    <div className="test-container bg-red bg-prim border-cyan">
-      <h1 className="test-label-gray">Placements with target</h1>
+    <div className="test-container">
+      <h1 className="test-label-gray bg-blue">Placements with target</h1>
       <div
         className={`test-button ${placement === "inside" ? "" : "bg-white"}`}
         key={"inside"}

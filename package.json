@@ -1,18 +1,17 @@
 {
   "name": "test-lib",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1.beta",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "vite",
-    "build": "tsc && vite build && yarn purgecss",
+    "start": "start /B yarn moon && yarn dev",
+    "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "purgecss": "purgecss --config purgecss-config.cjs"
   },
   "dependencies": {
-    "moon-style": "^0.0.55",
     "morabaa-provider": "^0.0.43",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -27,6 +26,7 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "moon-style": "^0.0.70",
     "purgecss": "^5.0.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"

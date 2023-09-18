@@ -1,0 +1,12 @@
+{
+  "content": [
+    "./src/**/*.{html,js,jsx,tsx}"
+  ],
+  "output": "./node_modules/moon-style/dist/moon",
+  "css": [
+    "./node_modules/moon-style/dist/moon/moon.styles.css",
+    "./node_modules/moon-style/dist/moon/moon.themes.css",
+    "./node_modules/moon-style/dist/moon/moon.static.css",
+    "./node_modules/moon-style/dist/moon/moon.jit.css"
+  ]
+}
